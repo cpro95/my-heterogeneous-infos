@@ -23,7 +23,7 @@ const socialCount = SOCIALS.filter(social => social.active).length;
   <Header />
   <main id="main-content">
     <section id="hero">
-      <h1 class="mr-2">Mingalaba</h1>
+      <h1 class="mr-2">일상의 다채롭고 다양한 이슈 탐험</h1>
       <a
         target="_blank"
         href="/rss.xml"
@@ -41,20 +41,11 @@ const socialCount = SOCIALS.filter(social => social.active).length;
       </a>
 
       <p>
-        AstroPaper is a minimal, responsive, accessible and SEO-friendly Astro
-        blog theme. This theme follows best practices and provides accessibility
-        out of the box. Light and dark mode are supported by default. Moreover,
-        additional color schemes can also be configured.
+        "다양성 속 일상, 주변의 다채로운 이슈를 소개합니다. 여기서는 문화, 기술,
+        예술 등 다양한 주제에 대한 통찰력과 지식을 제공합니다. 일상의 다양한
+        면면에서 새로운 시각을 경험하며 함께 성장해보세요."
       </p>
-      <p>
-        Read the blog posts or check
-        <LinkButton
-          className="hover:text-skin-accent underline underline-offset-4 decoration-dashed"
-          href="https://github.com/satnaing/astro-paper#readme"
-        >
-          README
-        </LinkButton> for more info.
-      </p>
+
       {
         // only display if at least one social link is enabled
         socialCount > 0 && (

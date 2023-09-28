@@ -1,16 +1,16 @@
 import type { Site, SocialObjects } from "./types";
 
 export const SITE: Site = {
-  website: "https://astro-paper.pages.dev/",
-  author: "Sat Naing",
-  desc: "A minimal, responsive and SEO-friendly Astro blog theme.",
-  title: "AstroPaper",
-  ogImage: "astropaper-og.jpg",
+  website: "https://my-heterogeneous-infos.pages.dev/",
+  author: "cpro95@gmail.com",
+  desc: "Heterogeneous: 다 양 한, 이 질 적 인, 다 른 성 질 을 가 진",
+  title: "My Heterogeneous Infos",
+  ogImage: "https://my-heterogeneous-infos.pages.dev/og.png",
   lightAndDarkMode: true,
   postPerPage: 3,
 };
 
-export const LOCALE = ["en-EN"]; // set to [] to use the environment default
+export const LOCALE = ["ko-KR"]; // set to [] to use the environment default
 
 export const LOGO_IMAGE = {
   enable: false,
@@ -22,37 +22,37 @@ export const LOGO_IMAGE = {
 export const SOCIALS: SocialObjects = [
   {
     name: "Github",
-    href: "https://github.com/satnaing/astro-paper",
+    href: "https://github.com/cpro95",
     linkTitle: ` ${SITE.title} on Github`,
-    active: true,
+    active: false,
   },
   {
     name: "Facebook",
     href: "https://github.com/satnaing/astro-paper",
     linkTitle: `${SITE.title} on Facebook`,
-    active: true,
+    active: false,
   },
   {
     name: "Instagram",
-    href: "https://github.com/satnaing/astro-paper",
-    linkTitle: `${SITE.title} on Instagram`,
-    active: true,
+    href: "https://www.instagram.com/cpro95/",
+    linkTitle: `cpro95 instagram`,
+    active: false,
   },
   {
     name: "LinkedIn",
     href: "https://github.com/satnaing/astro-paper",
     linkTitle: `${SITE.title} on LinkedIn`,
-    active: true,
+    active: false,
   },
   {
     name: "Mail",
-    href: "mailto:yourmail@gmail.com",
+    href: "mailto:cpro95@gmail.com",
     linkTitle: `Send an email to ${SITE.title}`,
     active: false,
   },
   {
     name: "Twitter",
-    href: "https://github.com/satnaing/astro-paper",
+    href: "https://twitter.com/cpro95",
     linkTitle: `${SITE.title} on Twitter`,
     active: false,
   },
@@ -139,5 +139,23 @@ export const SOCIALS: SocialObjects = [
     href: "https://github.com/satnaing/astro-paper",
     linkTitle: `${SITE.title} on Mastodon`,
     active: false,
+  },
+  {
+    name: "Codings",
+    href: "https://mycodings.fly.dev",
+    linkTitle: `mycodings blog`,
+    active: true,
+  },
+  {
+    name: "Tistory",
+    href: "https://cpro95.tistory.com",
+    linkTitle: `Tistory blog`,
+    active: true,
+  },
+  {
+    name: "Lotto",
+    href: "https://mylotto.pages.dev",
+    linkTitle: `mylotto`,
+    active: true,
   },
 ];
