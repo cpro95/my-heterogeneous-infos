@@ -144,18 +144,18 @@ export const SOCIALS: SocialObjects = [
     name: "Codings",
     href: "https://mycodings.fly.dev",
     linkTitle: `mycodings blog`,
-    active: true,
+    active: false,
   },
   {
     name: "Tistory",
     href: "https://cpro95.tistory.com",
     linkTitle: `Tistory blog`,
-    active: true,
+    active: false,
   },
   {
     name: "Lotto",
     href: "https://mylotto.pages.dev",
     linkTitle: `mylotto`,
-    active: true,
+    active: false,
   },
 ];
