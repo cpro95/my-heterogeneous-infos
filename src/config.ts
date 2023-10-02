@@ -7,7 +7,7 @@ export const SITE: Site = {
   title: "My Heterogeneous Infos",
   ogImage: "https://my-heterogeneous-infos.pages.dev/og.png",
   lightAndDarkMode: true,
-  postPerPage: 3,
+  postPerPage: 5,
 };
 
 export const LOCALE = ["ko-KR"]; // set to [] to use the environment default
