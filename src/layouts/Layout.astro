@@ -62,8 +62,23 @@ const socialImageURL = new URL(
     <meta property="twitter:image" content={socialImageURL} />
 
     <!-- Google Verification -->
-    <meta name="google-site-verification" content="a0BHeYMjjNQfJnI7ScEUyt2sXri75SZ1nPkIuxET1rA" />
+    <meta
+      name="google-site-verification"
+      content="a0BHeYMjjNQfJnI7ScEUyt2sXri75SZ1nPkIuxET1rA"
+    />
 
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-0RCTCPYWR8"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-0RCTCPYWR8");
+    </script>
     <!-- Google Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />

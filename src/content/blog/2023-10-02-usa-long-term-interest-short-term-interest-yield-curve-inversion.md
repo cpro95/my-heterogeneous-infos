@@ -1,8 +1,8 @@
 ---
 title: 미국 장단기 금리 역전과 경기의 모래시계 - 글로벌 경제의 불안한 신호
 pubDatetime: 2023-10-02T00:19:12.799Z
-postSlug: 2023-10-02-usa-logg-term-interest-short-term-interest-yield-curve-inversion
-featured: false
+postSlug: 2023-10-02-usa-long-term-interest-short-term-interest-yield-curve-inversion
+featured: true
 draft: false
 tags:
     - 미국

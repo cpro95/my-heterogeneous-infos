@@ -2,7 +2,7 @@
 title: JYP의 글로벌 투자- A2K 프로젝트로 이뤄진 Vcha의 탄생
 pubDatetime: 2023-10-02T03:05:03.205Z
 postSlug: 2023-10-02-a2k-project-and-vcha-new-global-girl-group-from-jyp-entertainment
-featured: false
+featured: true
 draft: false
 tags:
     - A2K
