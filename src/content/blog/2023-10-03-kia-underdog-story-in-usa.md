@@ -2,7 +2,7 @@
 title: Underdog Kia의 성공 비결 - 혁신적인 전기차와 지속 가능한 전략
 pubDatetime: 2023-10-03T13:18:17.446Z
 postSlug: 2023-10-03-kia-underdog-story-in-usa
-featured: false
+featured: true
 draft: false
 tags:
     - Kia
