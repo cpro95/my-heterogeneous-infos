@@ -3,3 +3,5 @@ Disallow: /nogooglebot/
 
 User-agent: *
 Allow: /
+
+#DaumWebMasterTool:34b946b600a813f835aae93d6628db9554d846e842c477dae0220aa328379ae7:SSNnYn10Ir4e1llY7IPGHQ==
